@@ -44,8 +44,55 @@ The primary objective of this task is to establish a clear and concise scope for
 Completion of this task will result in a well-defined project scope for MainOp, laying a solid foundation for the subsequent phases of development. It will include a detailed list of functionalities, a feature set, and a timeline of goals and milestones, guiding the project's progression in a structured and focused manner.
 
 ### Task 1.2: Set Up Development Environment
-- Initialize a Next.js project.
-- Configure essential tools (e.g., Git, IDE, Node.js).
+
+Establish a robust and efficient development environment tailored for building MainOp with Next.js. This environment will support all necessary technologies and tools for full-stack JavaScript development.
+
+
+#### 1. Install Core Software
+- **Node.js and npm**: Ensure the latest stable version of Node.js is installed along with npm (Node Package Manager), which comes bundled with Node.js.
+- **Git**: Install Git for version control.
+- **Visual Studio Code (VS Code)**: Recommended IDE for its extensive support for JavaScript and Next.js development.
+
+#### 2. Initialize Next.js Project
+- Run `npx create-next-app@latest mainop` in the terminal to create a new Next.js project named 'mainop'.
+- Navigate into the project directory `cd mainop`.
+
+#### 3. Set Up Version Control
+- Initialize a Git repository in the project directory using `git init`.
+- Create a `.gitignore` file to exclude node_modules and other non-essential files from version control.
+
+#### 4. Configure IDE
+- **VS Code Extensions**: Install essential extensions like ESLint for linting, Prettier for code formatting, and the Next.js extension pack.
+- **Code Linting and Formatting**: Set up ESLint and Prettier in the project for consistent coding standards.
+
+#### 5. Additional Tooling
+- **TypeScript**: Consider setting up TypeScript for type-safe coding by running `npm install --save-dev typescript @types/react @types/node`.
+- **Environment Variables**: Set up `.env.local` for managing environment variables.
+
+#### 6. Front-End Tooling
+- **CSS Frameworks**: Install a CSS framework (like Tailwind CSS, Bootstrap) as needed for UI development.
+- **Component Libraries**: Optionally, include component libraries like Material-UI or Ant Design to speed up UI development.
+
+#### 7. Back-End and API Development
+- **API Mocking Tools**: Tools like Postman or Insomnia for testing API endpoints.
+- **Database Client**: If using a database, install the appropriate client or GUI (e.g., pgAdmin for PostgreSQL, MongoDB Compass for MongoDB).
+
+#### 8. Source Control and Collaboration
+- Create a repository on GitHub/GitLab/Bitbucket and push the initial codebase.
+- Set up branch policies as necessary for feature branching and code reviews.
+
+#### 9. Continuous Integration/Continuous Deployment (CI/CD)
+- Consider setting up a basic CI/CD pipeline using platforms like Vercel, GitHub Actions, or GitLab CI/CD, especially for automated deployment and testing.
+
+#### 10. Testing Frameworks
+- Install and configure testing frameworks like Jest for unit testing and React Testing Library for UI testing.
+
+
+
+At the end of this task, you will have a fully configured development environment ready for building MainOp with Next.js. This environment will include all the necessary tools and configurations for both front-end and back-end development, streamlined for efficiency and best practices in a JavaScript-centric stack.
+
+
+
 
 ### Task 1.3: Plan Development Sprints
 - Break down the project into smaller, manageable sprints.
